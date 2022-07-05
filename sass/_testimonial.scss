@@ -1,0 +1,30 @@
+.testimonial{
+    height: 70rem;
+
+    &__container{
+        padding-left: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 20rem 1fr;
+    }
+    &__header{
+        grid-area: 1 / 1 / 2 / -1;
+        svg{fill:rgba(254, 250, 255, 1);}
+
+    }
+    &__image{justify-content: center;}
+    &__group{
+        margin-left: 3rem;
+        margin-top: -3rem;
+        height: 25rem;
+        width: 42rem;
+
+        svg{
+            border-radius: 3px;
+            margin: .5rem;
+            height: 2.5rem;
+            width: 2.5rem;
+            border: 1px solid #E8E4DC;
+        }
+    }
+}

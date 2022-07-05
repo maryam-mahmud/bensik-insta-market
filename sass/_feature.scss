@@ -1,0 +1,80 @@
+.feature{
+    height: 100rem;
+
+    &__container{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 20rem repeat(2, max-content);
+
+        .text{width: 90%;}
+    }
+    &__header{
+        grid-area: 1 / 1 / 2 / 3;
+        align-items: center;
+    }
+    &__box{
+        height: 35rem;
+        &--2{
+            span{
+                display: block;
+                height: .4rem;
+                width: 5rem;
+                background-color: lightgrey;
+                border-radius: 2px;
+                margin: 2px 0;
+            }
+            .content{
+                box-shadow: -8px 30px 80px -25px rgba(82, 82, 82, 0.1);
+                height: 28rem;
+                width: 24rem;
+            }
+            
+        }
+        &--3{
+            .circle{
+                position: relative;
+                box-shadow: -8px 30px 80px -25px rgba(82, 82, 82, 0.1);
+                height: 25rem;
+                width: 25rem;
+    
+                .image{
+                    position: absolute;
+                    &--1{
+                        top: 7rem;
+                        left: 8rem;
+                        
+                    }
+                    &--2{
+                        top: -3rem;
+                        left: 10rem;
+        
+                    }
+                    &--3{
+                        top: 2rem;
+                        left: 1rem;
+        
+                    }
+                    &--4{
+                        top: 2rem;
+                        right: 1rem;
+        
+                    }
+                    &--5{
+                        bottom: 2rem;
+                        left: 0;
+        
+                    }
+                    &--6{
+                        bottom: 2rem;
+                        right: 0;
+                    }
+                }
+            }
+           
+            
+        }
+
+    }
+
+}

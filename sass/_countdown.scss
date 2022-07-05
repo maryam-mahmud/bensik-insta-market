@@ -1,0 +1,23 @@
+.countdown{
+    height: 50rem;
+    background: rgba(35, 26, 54, 1);
+
+
+    &__container{
+        width: 70%;
+        gap: 7rem;
+    }
+
+    &__text{
+        width: 80%;
+        p{width: 80%;}
+    }
+    &__numbers{
+        width: 90%;
+
+        & > div{
+            height: 6rem; 
+            line-height: 1.3;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+
+    &__nav{
+        // background-color: #fff;
+        height: 12rem;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+}
